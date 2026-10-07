@@ -78,7 +78,7 @@ No hace falta instalar Maven ni PostgreSQL: el proyecto incluye Maven Wrapper y 
 
 ```bash
 git clone https://github.com/AdrianRubioSevillano/canciones-api-quarkus.git
-cd <nombre-del-repo>
+cd canciones-api-quarkus
 ```
 
 **2. Levantar la base de datos**
