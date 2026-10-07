@@ -11,7 +11,7 @@ En ese examen obtuve un **10**, y en el conjunto de la asignatura, **Matrícula 
 Es el primero de tres proyectos de estudio de la asignatura, cada uno preparado para un examen:
 
 1. **Primer parcial** (este proyecto): API REST con arquitectura hexagonal y acceso a datos con JDBC.
-2. Segundo parcial (próximamente)
+2. [Segundo parcial](https://github.com/AdrianRubioSevillano/coches-microservicios-jakarta-quarkus): microservicios con Jakarta EE y Quarkus, validación de datos y gestión de errores entre servicios.
 3. Examen global (próximamente)
 
 ## Tecnologías
