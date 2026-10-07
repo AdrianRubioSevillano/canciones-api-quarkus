@@ -1,0 +1,78 @@
+### CANCIONES
+GET http://localhost:8080/canciones
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/canciones/11
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/canciones?id=1:5
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/canciones?id=1:5
+Content-Type: application/json
+
+###
+GET http://localhost:8080/canciones?id=1:5
+Content-Type: application/json
+
+###
+POST http://localhost:8080/canciones
+Content-Type: application/json
+Accept: application/json
+
+{
+  "titulo": "LypSync",
+  "artista": "La Pantera",
+  "albukm": "Ta Facil",
+  "duracion": 187,
+  "fechaEstreno": "2026-02-02"
+}
+
+###
+
+PUT http://localhost:8080/canciones/4
+Content-Type: application/json
+Accept: application/json
+
+{
+  "titulo": "Forever tu Gantel",
+  "artista": "Omar Courtz",
+  "albukm": "Por si mañana no estoy",
+  "duracion": 201,
+  "fechaEstreno": "2026-04-02"
+}
+
+###
+
+DELETE http://localhost:8080/canciones/11
+
+
+###
+
+POST http://localhost:8080/canciones/several
+Content-Type: application/json
+Accept: application/json
+
+[
+    {
+      "titulo": "Luces de colores",
+      "artista": "Omar Courzt",
+      "albukm": "Primera Musa",
+      "duracion": 204,
+      "fechaEstreno": "2024-06-02"
+    },
+  {
+    "titulo": "Soñaste con un draco",
+    "artista": "La Pantera",
+    "albukm": "Ta Facil",
+    "duracion": 150,
+    "fechaEstreno": "2026-02-02"
+  }
+
+]
