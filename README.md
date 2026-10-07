@@ -12,8 +12,7 @@ Es el primero de tres proyectos de estudio de la asignatura, cada uno preparado 
 
 1. **Primer parcial** (este proyecto): API REST con arquitectura hexagonal y acceso a datos con JDBC.
 2. [Segundo parcial](https://github.com/AdrianRubioSevillano/coches-microservicios-jakarta-quarkus): microservicios con Jakarta EE y Quarkus, validación de datos y gestión de errores entre servicios.
-3. Examen global (próximamente)
-
+3. [Examen global](https://github.com/AdrianRubioSevillano/consolas-webapp-jakarta-mvc): aplicación web completa con interfaz gráfica, formularios protegidos y API REST.
 ## Tecnologías
 
 | Área | Tecnología |
@@ -78,7 +77,7 @@ No hace falta instalar Maven ni PostgreSQL: el proyecto incluye Maven Wrapper y 
 **1. Clonar el repositorio**
 
 ```bash
-git clone https://github.com/<tu-usuario>/<nombre-del-repo>.git
+git clone https://github.com/AdrianRubioSevillano/canciones-api-quarkus.git
 cd <nombre-del-repo>
 ```
 
@@ -155,14 +154,6 @@ Content-Type: application/json
 
 El archivo [`request.http`](request.http) contiene ejemplos de todas las peticiones, listos para ejecutar desde IntelliJ IDEA o desde VS Code con la extensión REST Client.
 
-## Próximos pasos
-
-Al ser el proyecto del primer parcial, se centra en la arquitectura y el acceso a datos. Algunos aspectos que no cubre los trabajé en los proyectos de los siguientes exámenes:
-
-- Validación de los datos de entrada.
-- Gestión de errores con respuestas HTTP específicas.
-- Transacciones en las operaciones que modifican varios registros.
-- Tests automatizados.
 
 ## Autor
 
